@@ -3,6 +3,8 @@
 La solution démontre le fonctionnement du déploiement de type Canary avec 
 un service nginx et en front un load-balancer nginx utilisant un stack Swarm.
 
+![Schema](schema.png)
+
 Cette solution utilise des 'configs' docker swarm pour partager sur les nodes 
 les configurations de chaque service nginx et des fichiers index.html spécifique 
 pour afficher sur l'instance 1 *Welcome Canary Old* et pour l'instance 2 *Welcome Canary New*.
