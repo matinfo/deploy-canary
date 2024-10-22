@@ -21,13 +21,11 @@ bash deploy.sh
 
 ```bash
 bash update.sh new=9
-
-ou moins à l'instance old
-
-bash update.ch old=1
 ```
 
-Pour voir le comportement, rechercher à plusieurs reprise la page dans votre navigateur internet.
+Pour voir le comportement, recharger à plusieurs reprise la page dans votre navigateur internet.
+
+---
 
 Afin de permettre d'augmenter l'usage service *new* la config du load-balancer est
 créer dans docker avec un nom (name) changent à chaque 'switch'. C'est un bon moyen pour forcer 
